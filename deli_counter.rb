@@ -35,7 +35,7 @@ def take_a_number(katz_deli, name)
 
 nindex = nil
 nindex = katz_deli.find_index(name)
-puts "Welcome #{name}.  You are currently #{nindex} in line."
+puts "Welcome, #{name}. You are number #{nindex} in line."
 
 
 end
