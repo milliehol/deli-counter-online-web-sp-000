@@ -21,16 +21,20 @@ puts "The line is currently:#{sarray}"
 end
 end
 
-def take_a_number(katz_deli, name)
-nindex = 0
-  katz_deli.each_with_index do |name2, index|
-if name == name2
-    nindex = index + 1
-else
-  nindex = nil
-end
-  end
 
+
+def take_a_number(katz_deli, name)
+#nindex = 0
+  #katz_deli.each_with_index do |name2, index|
+#if name == name2
+    #nindex = index + 1
+#else
+  #nindex = nil
+#end
+  #end
+
+nindex = nil
+katz_deli.find_index(name)
 puts "Welcome #{name}.  You are currently #{nindex} in line."
 
 
