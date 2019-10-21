@@ -34,7 +34,7 @@ def take_a_number(katz_deli, name)
   #end
 
 mindex = nil
-nindex = nil
+nindex = 1
 mindex = katz_deli.find_index(name)
 nindex = (mindex + 1)
 
